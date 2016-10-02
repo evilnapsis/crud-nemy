@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+  <title>Nuevo Contacto</title>
+</head>
+<body>
+ 
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2>Nuevo Contacto</h2>
+<a href="/" class="btn btn-default">Inicio</a>
+<br><br>
+<form method="post" action="/save">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="text" name="person[name]" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Apellido</label>
+    <input type="text" name="person[lastname]" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Telefono</label>
+    <input type="text" name="person[phone]" class="form-control" id="exampleInputEmail1" placeholder="Telefono">
+  </div>
+
+
+  <button type="submit" class="btn btn-default">Guardar</button>
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
