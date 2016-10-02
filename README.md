@@ -13,7 +13,7 @@ Este es un ejemplo basico de un CRUD usando Node, Express y Mysql
 Necesitas instalar las dependencias, mysql y ejecutar el archivo schema.sql en la base de datos
 ```
 npm install
-npm mysql
+npm install mysql
 mysql -uroot -h127.0.0.1 < crud-nemy/schema.sql
 ```
 
