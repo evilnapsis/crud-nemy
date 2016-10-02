@@ -10,8 +10,10 @@ Este es un ejemplo basico de un CRUD usando Node, Express y Mysql
 - BodyParser
 
 ## Instalacion
-Necesitas ejecutar el archivo schema.sql en la base de datos
+Necesitas instalar las dependencias, mysql y ejecutar el archivo schema.sql en la base de datos
 ```
+npm install
+npm mysql
 mysql -uroot -h127.0.0.1 < crud-nemy/schema.sql
 ```
 
