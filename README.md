@@ -1,11 +1,12 @@
 # CRUD NODE+EXPRESS+MYSQL
 
 ## Requerimientos
--Node
--Express
--MySQL
--EJS
--BodyParser
+
+- Node
+- Express
+- MySQL
+- EJS
+- BodyParser
 
 ## Instalacion
 Necesitas ejecutar el archivo schema.sql en la base de datos
