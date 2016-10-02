@@ -1,4 +1,5 @@
 # CRUD NODE+EXPRESS+MYSQL
+Este es un ejemplo basico de un CRUD usando Node, Express y Mysql
 
 ## Requerimientos
 
